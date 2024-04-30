@@ -3,7 +3,7 @@ import {StyleSheet, View, FlatList} from 'react-native';
 import GoalItem from './components/GoalItem';
 import GoalInput from './components/GoalInput';
 import { useState } from 'react';
-
+//commit
 export default function App() {
   //New state
   const [listOfGoals, setListOfGoals] = useState([])
