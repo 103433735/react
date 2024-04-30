@@ -1,11 +1,12 @@
-import { StyleSheet } from "react-native"
-function GoalItem() {
+import { StyleSheet, View, Text, Button } from "react-native"
+function GoalItem(props) {
     return(  
       <View style={styles.goalItem}>
         <Text style={{color: "white"}} key={Math.random()}>
-          {item.item.text}
+          {props.goal.item.text}
         </Text>
-        </View>)
+      </View>
+      )
 }
 export default GoalItem
 
